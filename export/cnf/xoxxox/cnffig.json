@@ -1,0 +1,6 @@
+{
+  "urlact": "http://192.168.0.1/",
+  "urlcam": "http://192.168.0.2:81/stream",
+  "urlfrm": "http://xoxxox_appact/frm",
+  "urlfce": "http://xoxxox_appact/fce"
+}
