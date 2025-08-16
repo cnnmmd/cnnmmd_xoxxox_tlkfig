@@ -4,7 +4,7 @@ networks:
     external: true
 services:
   xoxxox_appact:
-    image: xoxxox_imgweb:001
+    image: xoxxox/envweb:001
     container_name: xoxxox_appact
     volumes:
     - ../../../export:/opt/common
@@ -12,7 +12,7 @@ services:
     - ./envdir.txt
     command: "python /opt/common/bin/xoxxox/sndact.py"
   xoxxox_appfce:
-    image: xoxxox_imgrcg:001
+    image: xoxxox/envrcg:001
     container_name: xoxxox_appfce
     volumes:
     - ../../../export:/opt/common
